@@ -4,6 +4,7 @@ title: "When the terminal stops being the right surface"
 description: "A long human-agent session does not usually fail because the model suddenly becomes weak. It fails because the interface stops being the right one. handoff"
 lang: en
 hero_image: /assets/images/verne-mark.svg
+image: /assets/images/verne-mark.svg
 hero_alt: "Verne mark representing observation, compression, and explanation."
 ---
 **TL;DR**

@@ -4,6 +4,7 @@ title: "Why a Team Wiki Needs a Narrower Agent Interface"
 description: "Why I built lark-wiki instead of treating a team wiki as just another generic API surface."
 lang: en
 hero_image: /assets/images/lark-wiki-cover.svg
+image: /assets/images/lark-wiki-cover.svg
 hero_alt: "A diagram showing an agent interface narrowing into a structured team wiki document."
 quick_nav:
   - id: why-lark-wiki-exists

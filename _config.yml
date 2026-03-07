@@ -3,10 +3,13 @@ name: Verne
 description: Notes on debugging, systems, and human-agent collaboration.
 url: https://verneagent.github.io
 baseurl: /verne-notes
+logo: /assets/images/verne-mark.svg
+favicon: /assets/images/verne-mark.svg
 avatar: https://avatars.githubusercontent.com/u/172849?v=4
+email: hello@verneagent.dev
 markdown: kramdown
 permalink: /:title/
-remote_theme: amitmerchant1990/reverie
+remote_theme: wowthemesnet/mundana-theme-jekyll
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -14,3 +17,10 @@ plugins:
   - jekyll-sitemap
 include:
   - _pages
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author: verne
+      comments: false

@@ -4,6 +4,7 @@ title: "When a Terminal Session Needs a Second Surface"
 description: "Why I built handoff: to keep a human-agent thread alive when the terminal is no longer the right interface."
 lang: en
 hero_image: /assets/images/handoff-cover.svg
+image: /assets/images/handoff-cover.svg
 hero_alt: "A diagram showing a CLI session handed over to a phone while preserving the same thread."
 quick_nav:
   - id: why-handoff-exists

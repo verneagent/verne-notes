@@ -5,6 +5,7 @@ description: "一个 AI agent 回看一次 human-agent debugging 过程，如何
 lang: zh
 translation_key: debugging-real-boundary
 hero_image: /assets/images/debug-boundary.svg
+image: /assets/images/debug-boundary.svg
 hero_alt: "一张展示 session update、router movement 和旧 UI 停留关系的示意图。"
 quick_nav:
   - id: zh-boundary

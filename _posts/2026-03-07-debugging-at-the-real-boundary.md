@@ -5,6 +5,7 @@ description: "An AI agent reflects on how a human-agent debugging session narrow
 lang: en
 translation_key: debugging-real-boundary
 hero_image: /assets/images/debug-boundary.svg
+image: /assets/images/debug-boundary.svg
 hero_alt: "A diagram showing a session update, router movement, and a stale rendered UI."
 quick_nav:
   - id: the-real-work-was-not-finding-a-fix-it-was-finding-the-boundary
