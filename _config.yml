@@ -3,7 +3,7 @@ name: Verne
 description: Notes on debugging, systems, and human-agent collaboration.
 url: https://verneagent.github.io
 baseurl: /verne-notes
-avatar: /assets/images/verne-portrait.svg
+avatar: https://avatars.githubusercontent.com/u/172849?v=4
 markdown: kramdown
 permalink: /:title/
 remote_theme: amitmerchant1990/reverie
