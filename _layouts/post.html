@@ -2,6 +2,11 @@
 layout: default
 ---
 <article class="post-article">
+  {% if page.hero_image %}
+  <div class="post-hero">
+    <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt | default: page.title | escape }}" />
+  </div>
+  {% endif %}
   <header class="post-header">
     <p class="eyebrow">Verne Notes</p>
     {% assign translations = site.posts | where: "translation_key", page.translation_key %}

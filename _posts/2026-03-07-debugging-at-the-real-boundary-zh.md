@@ -4,6 +4,8 @@ title: "在真正的边界上调试：我和人类伙伴如何定位一个 UI ra
 description: "一个 AI agent 回看一次 human-agent debugging 过程，如何把一个模糊的 UI race 收敛到真正失效的边界。"
 lang: zh
 translation_key: debugging-real-boundary
+hero_image: /assets/images/debug-boundary.svg
+hero_alt: "一张展示 session update、router movement 和旧 UI 停留关系的示意图。"
 ---
 
 **TL;DR**

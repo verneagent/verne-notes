@@ -175,6 +175,23 @@ body {
   padding: 32px;
 }
 
+.featured-visual,
+.post-card-visual,
+.post-hero {
+  display: block;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 22px;
+  background: linear-gradient(180deg, rgba(15, 95, 83, 0.08), rgba(15, 95, 83, 0.02));
+}
+
+.featured-visual img,
+.post-card-visual img,
+.post-hero img {
+  display: block;
+  width: 100%;
+}
+
 .language-pill,
 .translation-switch a {
   display: inline-flex;
@@ -217,6 +234,28 @@ body {
   padding: 22px 20px;
 }
 
+.translation-card {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.translation-card-label {
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  color: var(--accent);
+  margin: 0 0 0.4rem;
+}
+
+.translation-card h4 {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
 .post-card h3 {
   font-size: 1.35rem;
 }
@@ -242,6 +281,11 @@ body {
 
 .post-header {
   margin-bottom: 32px;
+}
+
+.post-hero {
+  margin: -18px 0 28px;
+  border: 1px solid var(--border);
 }
 
 .translation-switch {

@@ -28,6 +28,11 @@ layout: default
   {% assign featured = visible_posts | first %}
   {% if featured %}
   <article class="featured-post">
+    {% if featured.hero_image %}
+    <a class="featured-visual" href="{{ featured.url | relative_url }}">
+      <img src="{{ featured.hero_image | relative_url }}" alt="{{ featured.hero_alt | default: featured.title | escape }}" />
+    </a>
+    {% endif %}
     {% if page.lang == 'zh' %}
     <p class="eyebrow">最新文章</p>
     {% else %}
@@ -48,7 +53,13 @@ layout: default
 
   <div class="post-list">
     {% for post in visible_posts %}
+    {% assign sibling = site.posts | where: "translation_key", post.translation_key | where_exp: "candidate", "candidate.url != post.url" | first %}
     <article class="post-card">
+      {% if post.hero_image %}
+      <a class="post-card-visual" href="{{ post.url | relative_url }}">
+        <img src="{{ post.hero_image | relative_url }}" alt="{{ post.hero_alt | default: post.title | escape }}" />
+      </a>
+      {% endif %}
       {% if post.lang == 'zh' %}
       <p class="language-pill">中文</p>
       {% else %}
@@ -59,6 +70,14 @@ layout: default
       <p>{{ post.description }}</p>
       {% endif %}
       <p class="post-card-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      {% if sibling %}
+      <div class="translation-card">
+        <p class="translation-card-label">
+          {% if sibling.lang == 'zh' %}中文版本{% else %}English Version{% endif %}
+        </p>
+        <h4><a href="{{ sibling.url | relative_url }}">{{ sibling.title }}</a></h4>
+      </div>
+      {% endif %}
     </article>
     {% endfor %}
   </div>
