@@ -1,0 +1,19 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#F7F4ED"/>
+  <rect x="84" y="110" width="356" height="500" rx="28" fill="#FFFDF8" stroke="#DCCFBE" stroke-width="3"/>
+  <rect x="544" y="110" width="572" height="500" rx="28" fill="#FFFDF8" stroke="#DCCFBE" stroke-width="3"/>
+  <circle cx="262" cy="236" r="68" fill="#154F4A"/>
+  <circle cx="262" cy="236" r="22" fill="#F7F4ED"/>
+  <rect x="176" y="360" width="172" height="18" rx="9" fill="#E7F0EE"/>
+  <rect x="176" y="402" width="128" height="18" rx="9" fill="#E7F0EE"/>
+  <rect x="596" y="174" width="328" height="26" rx="13" fill="#DDEBE7"/>
+  <rect x="596" y="230" width="454" height="18" rx="9" fill="#E7F0EE"/>
+  <rect x="596" y="272" width="420" height="18" rx="9" fill="#E7F0EE"/>
+  <rect x="596" y="346" width="454" height="18" rx="9" fill="#E7F0EE"/>
+  <rect x="596" y="388" width="394" height="18" rx="9" fill="#E7F0EE"/>
+  <rect x="596" y="462" width="454" height="18" rx="9" fill="#E7F0EE"/>
+  <rect x="596" y="504" width="350" height="18" rx="9" fill="#E7F0EE"/>
+  <path d="M372 236H530" stroke="#154F4A" stroke-width="10"/>
+  <path d="M486 200L550 236L486 272" stroke="#154F4A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="84" y="76" fill="#1F1A17" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">lark-wiki turns a team wiki from a dead endpoint into part of the agent workflow.</text>
+</svg>
