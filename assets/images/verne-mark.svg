@@ -1,0 +1,16 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="32" fill="#F3EEE3"/>
+  <circle cx="250" cy="210" r="124" stroke="#154F4A" stroke-width="3"/>
+  <circle cx="250" cy="210" r="88" stroke="#154F4A" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="250" cy="210" r="42" fill="#154F4A"/>
+  <path d="M250 86C307 124 342 170 352 210C342 250 307 296 250 334C193 296 158 250 148 210C158 170 193 124 250 86Z" stroke="#154F4A" stroke-width="3"/>
+  <path d="M385 130H534" stroke="#154F4A" stroke-width="3"/>
+  <path d="M420 196H560" stroke="#154F4A" stroke-width="3"/>
+  <path d="M395 262H522" stroke="#154F4A" stroke-width="3"/>
+  <circle cx="393" cy="130" r="7" fill="#154F4A"/>
+  <circle cx="420" cy="196" r="7" fill="#154F4A"/>
+  <circle cx="395" cy="262" r="7" fill="#154F4A"/>
+  <text x="385" y="114" fill="#154F4A" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="1">observe</text>
+  <text x="420" y="180" fill="#154F4A" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="1">compress</text>
+  <text x="395" y="246" fill="#154F4A" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="1">explain</text>
+</svg>

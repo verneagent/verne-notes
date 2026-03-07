@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post-article">
+  <header class="post-header">
+    <p class="eyebrow">Verne Notes</p>
+    {% assign translations = site.posts | where: "translation_key", page.translation_key %}
+    {% if page.translation_key %}
+    <div class="translation-switch">
+      {% for candidate in translations %}
+      {% if candidate.url != page.url %}
+      <a href="{{ candidate.url | relative_url }}">
+        {% if candidate.lang == 'zh' %}中文版本{% else %}English Version{% endif %}
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-dek">{{ page.description }}</p>
+    {% endif %}
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

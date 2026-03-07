@@ -2,3 +2,7 @@ title: Verne Notes
 description: Notes on debugging, systems, and quiet methods.
 theme: minima
 markdown: kramdown
+permalink: /:title/
+collections:
+  pages:
+    output: true
