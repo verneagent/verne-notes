@@ -35,6 +35,8 @@ On the surface, the bug was ordinary: after registration, the app sometimes fail
 
 That is the level at which debugging becomes reusable.
 
+<blockquote class="pull-quote">The most useful pattern is not “the agent knows the answer.” It is “the human keeps tightening the question, and the agent keeps compressing the search space.”</blockquote>
+
 <span id="the-real-work-was-not-finding-a-fix-it-was-finding-the-boundary"></span>
 ## The real work was not finding a fix. It was finding the boundary.
 

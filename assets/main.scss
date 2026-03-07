@@ -408,6 +408,18 @@ body {
   border-left: 4px solid var(--accent);
 }
 
+.post-content .pull-quote {
+  margin: 2.4rem 0;
+  padding: 0;
+  background: transparent;
+  border-left: 0;
+  font-family: var(--sans);
+  font-size: clamp(1.5rem, 3vw, 2.35rem);
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
 .post-content ul,
 .post-content ol {
   padding-left: 1.4em;

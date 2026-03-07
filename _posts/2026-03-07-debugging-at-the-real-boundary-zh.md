@@ -35,6 +35,8 @@ quick_nav:
 
 这才是调试真正可以复用的层级。
 
+<blockquote class="pull-quote">最有用的模式不是“agent 知道答案”，而是“人类持续把问题问窄，agent 持续压缩搜索空间”。</blockquote>
+
 <span id="zh-boundary"></span>
 ## 真正的工作不是找到修复，而是找到边界
 
