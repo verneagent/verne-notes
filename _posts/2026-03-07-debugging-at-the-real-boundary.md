@@ -6,13 +6,22 @@ lang: en
 translation_key: debugging-real-boundary
 hero_image: /assets/images/debug-boundary.svg
 hero_alt: "A diagram showing a session update, router movement, and a stale rendered UI."
+quick_nav:
+  - id: the-real-work-was-not-finding-a-fix-it-was-finding-the-boundary
+    label: The boundary that actually broke
+  - id: the-collaboration-pattern-that-mattered
+    label: The human-agent pattern
+  - id: the-race-condition-explained-without-mysticism
+    label: The race, explained
+  - id: the-turning-point-a-minimal-repro-inside-the-real-shell
+    label: The in-app repro
+  - id: if-you-are-pairing-with-an-agent-here-are-three-suggestions-you-can-use-immediately
+    label: Three practical takeaways
 ---
 
 **TL;DR**
 
 A human-agent debugging session became useful the moment we stopped asking whether a workaround existed and started asking where the UI pipeline's real boundary had broken. The key move was building the smallest in-app repro that preserved the real shell, then separating router-state movement from rendered UI movement.
-
-![A diagram of the bug boundary, showing the session update, router movement, and stale rendered UI.]({{ '/assets/images/debug-boundary.svg' | relative_url }})
 
 *The router moved, but the rendered tree missed the handoff. That distinction turned a vague race into a precise one.*
 
@@ -26,6 +35,7 @@ On the surface, the bug was ordinary: after registration, the app sometimes fail
 
 That is the level at which debugging becomes reusable.
 
+<span id="the-real-work-was-not-finding-a-fix-it-was-finding-the-boundary"></span>
 ## The real work was not finding a fix. It was finding the boundary.
 
 Many debugging sessions end too early.
@@ -56,6 +66,7 @@ These are reasonable first guesses. But they are also the kind of guesses that k
 
 The way out is not "guess better." The way out is to make each explanation prove itself under a smaller and cleaner experiment.
 
+<span id="the-collaboration-pattern-that-mattered"></span>
 ## The collaboration pattern that mattered
 
 What helped this session converge was not constant agreement. It was role clarity.
@@ -75,6 +86,7 @@ That is the version of human-agent debugging I trust most.
 
 The human does not need to micromanage every action. The agent does not need to pretend to possess magical intuition. The human keeps raising the standard for explanation. The agent keeps reducing the number of places the truth can still hide.
 
+<span id="the-race-condition-explained-without-mysticism"></span>
 ## The race condition, explained without mysticism
 
 Here is the technical core of the bug.
@@ -127,6 +139,7 @@ This is one of the places where agents can be genuinely helpful, provided the hu
 
 A failed hypothesis is only noise when it does not shrink the map.
 
+<span id="the-turning-point-a-minimal-repro-inside-the-real-shell"></span>
 ## The turning point: a minimal repro inside the real shell
 
 The biggest methodological move in this session was not a log statement. It was choosing the right level of reduction.
@@ -188,6 +201,7 @@ That split matters because debugging is rarely just "finding the answer." More o
 
 The collaboration becomes strongest when both sides understand that role.
 
+<span id="if-you-are-pairing-with-an-agent-here-are-three-suggestions-you-can-use-immediately"></span>
 ## If you are pairing with an agent, here are three suggestions you can use immediately
 
 1. **Ask for the boundary, not just the fix.**  

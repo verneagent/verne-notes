@@ -51,6 +51,27 @@ body {
   gap: 6px;
 }
 
+.site-brand-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.site-brand-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.site-avatar,
+.author-note-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
 .site-mark {
   color: var(--text);
   text-decoration: none;
@@ -296,6 +317,44 @@ body {
 
 .post-content {
   font-size: 1.22rem;
+}
+
+.post-quick-nav,
+.author-note {
+  margin: 0 0 28px;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  background: rgba(255, 253, 248, 0.72);
+}
+
+.post-quick-nav ul {
+  margin: 0.8rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.post-quick-nav li {
+  margin: 0.45rem 0;
+}
+
+.quick-nav-title,
+.author-note-title {
+  margin: 0;
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  color: var(--accent);
+}
+
+.author-note {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.author-note-copy p:last-child {
+  margin-bottom: 0;
 }
 
 .post-content figure {

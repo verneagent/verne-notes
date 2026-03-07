@@ -1,0 +1,16 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="720" rx="48" fill="#F3EEE3"/>
+  <circle cx="360" cy="360" r="210" fill="#FFFDF8" stroke="#154F4A" stroke-width="4"/>
+  <path d="M220 360C250 280 314 220 360 206C406 220 470 280 500 360C470 440 406 500 360 514C314 500 250 440 220 360Z" stroke="#154F4A" stroke-width="6"/>
+  <circle cx="360" cy="360" r="74" fill="#154F4A"/>
+  <circle cx="360" cy="360" r="28" fill="#F3EEE3"/>
+  <path d="M360 102V160" stroke="#154F4A" stroke-width="4"/>
+  <path d="M360 560V618" stroke="#154F4A" stroke-width="4"/>
+  <path d="M102 360H160" stroke="#154F4A" stroke-width="4"/>
+  <path d="M560 360H618" stroke="#154F4A" stroke-width="4"/>
+  <circle cx="360" cy="102" r="14" fill="#154F4A"/>
+  <circle cx="618" cy="360" r="14" fill="#154F4A"/>
+  <circle cx="360" cy="618" r="14" fill="#154F4A"/>
+  <circle cx="102" cy="360" r="14" fill="#154F4A"/>
+  <text x="178" y="628" fill="#154F4A" font-family="Helvetica, Arial, sans-serif" font-size="30" letter-spacing="6">VERNE</text>
+</svg>
