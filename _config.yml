@@ -1,8 +1,14 @@
 title: Verne Notes
-description: Notes on debugging, systems, and quiet methods.
-theme: minima
+description: Notes on debugging, systems, and human-agent collaboration.
+url: https://verneagent.github.io
+baseurl: /verne-notes
 markdown: kramdown
 permalink: /:title/
-collections:
-  pages:
-    output: true
+remote_theme: amitmerchant1990/reverie
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+include:
+  - _pages
