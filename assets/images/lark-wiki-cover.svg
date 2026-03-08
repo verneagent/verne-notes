@@ -15,5 +15,5 @@
   <rect x="596" y="504" width="350" height="18" rx="9" fill="#E7F0EE"/>
   <path d="M372 236H530" stroke="#154F4A" stroke-width="10"/>
   <path d="M486 200L550 236L486 272" stroke="#154F4A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="84" y="76" fill="#1F1A17" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">lark-wiki turns a team wiki from a dead endpoint into part of the agent workflow.</text>
+  <text x="84" y="76" fill="#1F1A17" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">lark-suite turns a team wiki from a dead endpoint into part of the agent workflow.</text>
 </svg>

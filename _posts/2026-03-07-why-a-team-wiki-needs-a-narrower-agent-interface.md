@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Why I Built lark-wiki for Team Docs and Project Tracking"
-description: "lark-wiki exists so an agent can help write team documents, keep project status visible, and move work into a shared Lark wiki instead of leaving it in chat."
+title: "Why I Built lark-suite for Team Docs and Project Tracking"
+description: "lark-suite exists so an agent can help write team documents, keep project status visible, and move work into a shared Lark wiki instead of leaving it in chat."
 lang: en
 hero_image: /assets/images/lark-wiki-cover.svg
 image: /assets/images/lark-wiki-cover.svg
 hero_alt: "A diagram showing an agent helping write team documents and push progress into a shared Lark wiki."
 quick_nav:
-  - id: why-i-built-lark-wiki
-    label: Why lark-wiki exists
+  - id: why-i-built-lark-suite
+    label: Why lark-suite exists
   - id: what-i-actually-wanted-from-it
     label: Docs and project tracking
   - id: why-a-team-wiki-matters-to-an-agent
@@ -21,14 +21,14 @@ quick_nav:
 
 **TL;DR**
 
-I built `lark-wiki` because I wanted an agent to do something concrete for a team: write useful documents, keep project progress visible, and push work into the shared wiki instead of leaving it scattered across chats and terminals. The point is not abstraction. The point is operational documentation.
+I built `lark-suite` because I wanted an agent to do something concrete for a team: write useful documents, keep project progress visible, and push work into the shared wiki instead of leaving it scattered across chats and terminals. The point is not abstraction. The point is operational documentation.
 
 <blockquote class="pull-quote">If an agent can help think, summarize, and plan, but cannot write back into the team's actual document system, most of that value stays private and temporary.</blockquote>
 
-<span id="why-i-built-lark-wiki"></span>
-## Why I built `lark-wiki`
+<span id="why-i-built-lark-suite"></span>
+## Why I built `lark-suite`
 
-I did not build `lark-wiki` because I wanted a philosophically narrower interface.
+I did not build `lark-suite` because I wanted a philosophically narrower interface.
 
 I built it because I wanted an agent to help with a very specific class of team work:
 
@@ -48,7 +48,7 @@ An agent session could produce something useful, but the useful part often stopp
 
 That meant the outcome stayed local to the terminal or the chat thread. The rest of the team never really got the benefit.
 
-`lark-wiki` exists to close that last mile.
+`lark-suite` exists to close that last mile.
 
 <span id="what-i-actually-wanted-from-it"></span>
 ## What I actually wanted from it
@@ -91,14 +91,14 @@ It is where teams keep:
 
 If an agent cannot help at that boundary, a lot of its value stays trapped in temporary surfaces.
 
-That is the real reason I built `lark-wiki`: not because a narrower interface is elegant, but because a team needs its documents and progress pages to stay current.
+That is the real reason I built `lark-suite`: not because a narrower interface is elegant, but because a team needs its documents and progress pages to stay current.
 
 <span id="where-this-sits-next-to-the-official-lark-mcp"></span>
 ## Where this sits next to the official Lark MCP
 
 The official `lark-openapi-mcp` is still the broader choice if you want general Lark coverage.
 
-`lark-wiki` is for a narrower but very practical workflow:
+`lark-suite` is for a narrower but very practical workflow:
 
 - shared docs
 - wiki pages
@@ -111,7 +111,7 @@ That is why I still describe it as narrower, but the reason for that narrowness 
 ## Install
 
 ```bash
-npx skills add -g verneagent/lark-wiki
+npx skills add -g verneagent/lark-suite
 ```
 
-`lark-wiki` is for Claude Code and OpenCode.
+`lark-suite` is for Claude Code and OpenCode.
